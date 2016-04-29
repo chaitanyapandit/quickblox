@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)connect:(id)sender;
+
+@property (strong, nonatomic) IBOutlet QBRTCRemoteVideoView *remoteView;
+@property (strong, nonatomic) IBOutlet UIView *localView;
 
 @end
 
